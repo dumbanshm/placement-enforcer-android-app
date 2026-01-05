@@ -1,0 +1,268 @@
+{
+  "meta": {
+    "name": "Antigravity Placement Prep Master Plan (FINAL)",
+    "total_days": 50,
+    "daily_focus_hours": 8,
+    "philosophy": "Full A2Z completion, zero cuts, execution over feelings",
+    "non_negotiables": [
+      "DSA every day",
+      "Full A2Z coverage",
+      "No resume edits after freeze",
+      "No new learning after day 40"
+    ]
+  },
+
+  "dsa_plan": {
+    "source": "Striver A2Z DSA Sheet",
+    "total_questions": 455,
+    "completed_already": {
+      "basics": 120,
+      "arrays": 20
+    },
+    "remaining_questions": 315,
+
+    "daily_rules": {
+      "default_daily_questions": 7,
+      "heavy_day_questions": 8,
+      "light_day_questions": 5,
+      "difficulty_split": {
+        "easy": 2,
+        "medium": 4,
+        "hard": 1
+      },
+      "no_consecutive_hard_days": true,
+      "revision_every_7_days": true,
+      "missed_day_penalty": "Add +2 questions next day"
+    },
+
+    "phases": [
+      {
+        "name": "Phase 1 – Core Linear DS",
+        "days": [1, 10],
+        "daily_questions": 7,
+        "topics": [
+          { "name": "Binary Search", "questions": 20 },
+          { "name": "Strings (basic)", "questions": 15 },
+          { "name": "Linked List", "questions": 25 },
+          { "name": "Recursion", "questions": 15 }
+        ]
+      },
+      {
+        "name": "Phase 2 – Bit, Stack, Window",
+        "days": [11, 18],
+        "daily_questions": 7,
+        "topics": [
+          { "name": "Bit Manipulation", "questions": 15 },
+          { "name": "Stack & Queue", "questions": 25 },
+          { "name": "Sliding Window & Two Pointer", "questions": 20 },
+          { "name": "Heaps / Priority Queue", "questions": 15 }
+        ]
+      },
+      {
+        "name": "Phase 3 – Trees & BST",
+        "days": [19, 28],
+        "daily_questions": 7,
+        "topics": [
+          { "name": "Binary Trees", "questions": 35 },
+          { "name": "Binary Search Trees", "questions": 15 }
+        ]
+      },
+      {
+        "name": "Phase 4 – Graphs",
+        "days": [29, 38],
+        "daily_questions": 8,
+        "topics": [
+          { "name": "Graphs (BFS, DFS)", "questions": 20 },
+          { "name": "Graphs (Topo, DSU)", "questions": 15 },
+          { "name": "Graphs (Shortest Path, MST)", "questions": 15 }
+        ]
+      },
+      {
+        "name": "Phase 5 – Dynamic Programming",
+        "days": [39, 46],
+        "daily_questions": 8,
+        "topics": [
+          { "name": "DP 1D", "questions": 25 },
+          { "name": "DP 2D", "questions": 25 },
+          { "name": "DP on Subsequences / Strings", "questions": 10 }
+        ]
+      },
+      {
+        "name": "Phase 6 – Tries, Greedy, Final Topics",
+        "days": [47, 50],
+        "daily_questions": 5,
+        "topics": [
+          { "name": "Greedy", "questions": 20 },
+          { "name": "Tries", "questions": 10 },
+          { "name": "Advanced Strings / Misc", "questions": 10 }
+        ]
+      }
+    ],
+
+    "completion_guarantee": {
+      "buffer_questions": 10,
+      "logic": "Missed questions roll into next heavy phase"
+    }
+  },
+
+  "core_subjects_plan": {
+    "daily_core_time_hours": 3,
+    "weekly_cycle": [
+      {
+        "day": 1,
+        "blocks": [
+          { "subject": "Computer Networks", "hours": 2 },
+          { "subject": "Operating Systems", "hours": 1 }
+        ]
+      },
+      {
+        "day": 2,
+        "blocks": [
+          { "subject": "Design & Analysis of Algorithms", "hours": 2 },
+          { "subject": "DBMS", "hours": 1 }
+        ]
+      },
+      {
+        "day": 3,
+        "blocks": [
+          { "subject": "Compiler Construction", "hours": 2 },
+          { "subject": "OOP", "hours": 1 }
+        ]
+      },
+      {
+        "day": 4,
+        "blocks": [
+          { "subject": "Computer Networks", "hours": 1.5 },
+          { "subject": "Machine Learning", "hours": 1.5 }
+        ]
+      },
+      {
+        "day": 5,
+        "blocks": [
+          { "subject": "DAA", "hours": 1.5 },
+          { "subject": "Electives", "hours": 1.5 }
+        ]
+      },
+      {
+        "day": 6,
+        "blocks": [
+          { "subject": "Compiler Construction", "hours": 1.5 },
+          { "subject": "Electives / Revision", "hours": 1.5 }
+        ]
+      },
+      {
+        "day": 7,
+        "blocks": [
+          { "subject": "Weekly CDC Revision", "hours": 2 },
+          { "subject": "Mock / Notes Cleanup", "hours": 1 }
+        ]
+      }
+    ],
+    "rules": {
+      "no_new_topics_after_day": 35,
+      "revision_priority_after_day": 35
+    }
+  },
+
+  "misc_placement_prep": {
+    "resume": {
+      "tasks": [
+        { "name": "Resume v1 ready", "deadline_day": 7 },
+        { "name": "Senior review", "deadline_day": 10 },
+        { "name": "Resume freeze", "deadline_day": 14 }
+      ]
+    },
+    "projects": {
+      "count": { "min": 2, "max": 3 },
+      "prep_window": [5, 15],
+      "daily_practice_minutes": 30
+    },
+    "lld": {
+      "enabled": true,
+      "window": [18, 30],
+      "frequency": "alternate_days",
+      "session_minutes": 60,
+      "problems": [
+        "Parking Lot",
+        "LRU Cache",
+        "Elevator System",
+        "BookMyShow",
+        "Splitwise"
+      ]
+    },
+    "behavioral_hr": {
+      "window": [35, 45],
+      "daily_minutes": 20,
+      "topics": [
+        "Self introduction",
+        "Failure story",
+        "Team conflict",
+        "Why this company"
+      ]
+    },
+    "linkedin": {
+      "required": false,
+      "minimum_setup_minutes": 30
+    }
+  },
+
+  "mock_interviews": {
+    "full_mocks": [
+      {
+        "id": 1,
+        "day": 28,
+        "goal": "Baseline check",
+        "rounds": [
+          { "type": "DSA", "minutes": 60, "questions": "2 medium" },
+          { "type": "Core CS", "minutes": 30 },
+          { "type": "Resume & Projects", "minutes": 20 },
+          { "type": "HR", "minutes": 15 }
+        ]
+      },
+      {
+        "id": 2,
+        "day": 36,
+        "goal": "Pressure test",
+        "rounds": [
+          { "type": "DSA", "minutes": 70, "questions": "1 medium + 1 hard" },
+          { "type": "Core CS", "minutes": 35 },
+          { "type": "Resume & Projects", "minutes": 20 },
+          { "type": "HR", "minutes": 15 }
+        ]
+      },
+      {
+        "id": 3,
+        "day": 43,
+        "goal": "Final simulation",
+        "rounds": [
+          { "type": "DSA", "minutes": 75, "questions": "1 medium + 1 hard" },
+          { "type": "Core CS", "minutes": 35 },
+          { "type": "Resume & Projects", "minutes": 20 },
+          { "type": "HR", "minutes": 15 }
+        ]
+      }
+    ],
+    "rules": {
+      "single_sitting": true,
+      "no_pausing": true,
+      "feedback_same_day": true
+    }
+  },
+
+  "weekly_health_check": {
+    "frequency": "weekly",
+    "checks": [
+      "DSA consistency",
+      "CDC backlog",
+      "Sleep >= 6.5 hours",
+      "Stress manageable"
+    ],
+    "failure_action": "Reduce scope, not intensity"
+  },
+
+  "global_rules": {
+    "no_new_learning_after_day": 40,
+    "no_productivity_tools": true,
+    "execution_over_feelings": true
+  }
+}
