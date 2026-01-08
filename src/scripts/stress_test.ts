@@ -12,6 +12,7 @@ const createMockState = (day: number, penalty = 0): AppState => ({
     lastCheckInDate: null,
     dsaPenaltyCounter: penalty,
     dailyProgress: {},
+    finalChecklist: {},
     history: {}
 });
 
@@ -83,4 +84,13 @@ const stateDay40 = createMockState(40);
 const taskDay40 = Engine.generateTasks(40, stateDay40).find(t => t.category === 'DSA');
 console.log(`- Day 40 DSA: ${taskDay40?.text}`);
 
-console.log("\n=== TEST COMPLETE ===");
+console.log('\n[TEST 6] DSA Revision Day (Day 7)');
+console.log(`- Day 7 % 7 === 0: ${7 % 7 === 0}`);
+// Test Day 7
+const stateRev = createMockState(7);
+const tasksRev = Engine.generateTasks(7, stateRev);
+const revTask = tasksRev.find(t => t.text.includes('REVISION DAY'));
+if (revTask) console.log('✅ PASSED: Revision task found: ' + revTask.text);
+else console.error('❌ FAILED: No revision task found on Day 7');
+
+console.log('\n=== TEST COMPLETE ===');

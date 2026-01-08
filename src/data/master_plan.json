@@ -11,7 +11,6 @@
       "No new learning after day 40"
     ]
   },
-
   "dsa_plan": {
     "source": "Striver A2Z DSA Sheet",
     "total_questions": 455,
@@ -20,7 +19,6 @@
       "arrays": 20
     },
     "remaining_questions": 315,
-
     "daily_rules": {
       "default_daily_questions": 7,
       "heavy_day_questions": 8,
@@ -34,152 +32,314 @@
       "revision_every_7_days": true,
       "missed_day_penalty": "Add +2 questions next day"
     },
-
     "phases": [
       {
-        "name": "Phase 1 – Core Linear DS",
-        "days": [1, 10],
+        "name": "Phase 1 – LL, Recursion, Bit Manipulation",
+        "days": [
+          1,
+          8
+        ],
         "daily_questions": 7,
         "topics": [
-          { "name": "Binary Search", "questions": 20 },
-          { "name": "Strings (basic)", "questions": 15 },
-          { "name": "Linked List", "questions": 25 },
-          { "name": "Recursion", "questions": 15 }
+          {
+            "name": "Linked List",
+            "questions": 20
+          },
+          {
+            "name": "Recursion & Subsequences",
+            "questions": 15
+          },
+          {
+            "name": "Bit Manipulation",
+            "questions": 10
+          }
         ]
       },
       {
-        "name": "Phase 2 – Bit, Stack, Window",
-        "days": [11, 18],
+        "name": "Phase 2 – Stack, Queue, Sliding Window, Heaps",
+        "days": [
+          9,
+          19
+        ],
         "daily_questions": 7,
         "topics": [
-          { "name": "Bit Manipulation", "questions": 15 },
-          { "name": "Stack & Queue", "questions": 25 },
-          { "name": "Sliding Window & Two Pointer", "questions": 20 },
-          { "name": "Heaps / Priority Queue", "questions": 15 }
+          {
+            "name": "Stack & Queue",
+            "questions": 25
+          },
+          {
+            "name": "Sliding Window & Two Pointer",
+            "questions": 20
+          },
+          {
+            "name": "Heaps / Priority Queue",
+            "questions": 15
+          }
         ]
       },
       {
-        "name": "Phase 3 – Trees & BST",
-        "days": [19, 28],
+        "name": "Phase 3 – Greedy, Trees & BST",
+        "days": [
+          20,
+          30
+        ],
         "daily_questions": 7,
         "topics": [
-          { "name": "Binary Trees", "questions": 35 },
-          { "name": "Binary Search Trees", "questions": 15 }
+          {
+            "name": "Greedy Algorithms",
+            "questions": 15
+          },
+          {
+            "name": "Binary Trees",
+            "questions": 30
+          },
+          {
+            "name": "Binary Search Trees",
+            "questions": 15
+          }
         ]
       },
       {
-        "name": "Phase 4 – Graphs",
-        "days": [29, 38],
-        "daily_questions": 8,
+        "name": "Phase 4 – Graphs (Deep Dive)",
+        "days": [
+          31,
+          42
+        ],
+        "daily_questions": 6,
         "topics": [
-          { "name": "Graphs (BFS, DFS)", "questions": 20 },
-          { "name": "Graphs (Topo, DSU)", "questions": 15 },
-          { "name": "Graphs (Shortest Path, MST)", "questions": 15 }
+          {
+            "name": "Graphs (BFS, DFS, Topo)",
+            "questions": 20
+          },
+          {
+            "name": "Graphs (Shortest Path, MST)",
+            "questions": 15
+          },
+          {
+            "name": "Graphs (Disjoint Set, Other)",
+            "questions": 10
+          }
         ]
       },
       {
-        "name": "Phase 5 – Dynamic Programming",
-        "days": [39, 46],
-        "daily_questions": 8,
+        "name": "Phase 5 – Dynamic Programming (Deep Dive)",
+        "days": [
+          43,
+          50
+        ],
+        "daily_questions": 6,
         "topics": [
-          { "name": "DP 1D", "questions": 25 },
-          { "name": "DP 2D", "questions": 25 },
-          { "name": "DP on Subsequences / Strings", "questions": 10 }
-        ]
-      },
-      {
-        "name": "Phase 6 – Tries, Greedy, Final Topics",
-        "days": [47, 50],
-        "daily_questions": 5,
-        "topics": [
-          { "name": "Greedy", "questions": 20 },
-          { "name": "Tries", "questions": 10 },
-          { "name": "Advanced Strings / Misc", "questions": 10 }
+          {
+            "name": "DP 1D & 2D",
+            "questions": 25
+          },
+          {
+            "name": "DP on Strings/Subsequences",
+            "questions": 20
+          }
         ]
       }
     ],
-
     "completion_guarantee": {
       "buffer_questions": 10,
       "logic": "Missed questions roll into next heavy phase"
     }
   },
-
   "core_subjects_plan": {
-    "daily_core_time_hours": 3,
-    "weekly_cycle": [
-      {
-        "day": 1,
-        "blocks": [
-          { "subject": "Computer Networks", "hours": 2 },
-          { "subject": "Operating Systems", "hours": 1 }
-        ]
-      },
-      {
-        "day": 2,
-        "blocks": [
-          { "subject": "Design & Analysis of Algorithms", "hours": 2 },
-          { "subject": "DBMS", "hours": 1 }
-        ]
-      },
-      {
-        "day": 3,
-        "blocks": [
-          { "subject": "Compiler Construction", "hours": 2 },
-          { "subject": "OOP", "hours": 1 }
-        ]
-      },
-      {
-        "day": 4,
-        "blocks": [
-          { "subject": "Computer Networks", "hours": 1.5 },
-          { "subject": "Machine Learning", "hours": 1.5 }
-        ]
-      },
-      {
-        "day": 5,
-        "blocks": [
-          { "subject": "DAA", "hours": 1.5 },
-          { "subject": "Electives", "hours": 1.5 }
-        ]
-      },
-      {
-        "day": 6,
-        "blocks": [
-          { "subject": "Compiler Construction", "hours": 1.5 },
-          { "subject": "Electives / Revision", "hours": 1.5 }
-        ]
-      },
-      {
-        "day": 7,
-        "blocks": [
-          { "subject": "Weekly CDC Revision", "hours": 2 },
-          { "subject": "Mock / Notes Cleanup", "hours": 1 }
-        ]
-      }
-    ],
     "rules": {
-      "no_new_topics_after_day": 35,
-      "revision_priority_after_day": 35
+      "heavy_start_day": 41
+    },
+    "light_schedule": {
+      "daily_hours": 1,
+      "weekly_cycle": [
+        {
+          "day": 1,
+          "blocks": [
+            {
+              "subject": "Operating Systems",
+              "hours": 1
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "blocks": [
+            {
+              "subject": "DBMS",
+              "hours": 1
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "blocks": [
+            {
+              "subject": "OOP & Design Patterns",
+              "hours": 1
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "blocks": [
+            {
+              "subject": "Computer Networks",
+              "hours": 1
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "blocks": [
+            {
+              "subject": "System Design (HLD)",
+              "hours": 1
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "blocks": [
+            {
+              "subject": "Revision / Notes",
+              "hours": 1
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "blocks": [
+            {
+              "subject": "Weekly Review",
+              "hours": 1
+            }
+          ]
+        }
+      ]
+    },
+    "heavy_schedule": {
+      "daily_hours": 4,
+      "weekly_cycle": [
+        {
+          "day": 1,
+          "blocks": [
+            {
+              "subject": "Operating Systems",
+              "hours": 3
+            },
+            {
+              "subject": "Computer Networks",
+              "hours": 1
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "blocks": [
+            {
+              "subject": "DBMS",
+              "hours": 3
+            },
+            {
+              "subject": "OOP",
+              "hours": 1
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "blocks": [
+            {
+              "subject": "Computer Networks",
+              "hours": 3
+            },
+            {
+              "subject": "Operating Systems",
+              "hours": 1
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "blocks": [
+            {
+              "subject": "OOP & Design Patterns",
+              "hours": 3
+            },
+            {
+              "subject": "DBMS",
+              "hours": 1
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "blocks": [
+            {
+              "subject": "System Design (HLD)",
+              "hours": 3
+            },
+            {
+              "subject": "Mixed Review",
+              "hours": 1
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "blocks": [
+            {
+              "subject": "Full Revision",
+              "hours": 4
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "blocks": [
+            {
+              "subject": "Full Revision",
+              "hours": 4
+            }
+          ]
+        }
+      ]
     }
   },
-
   "misc_placement_prep": {
     "resume": {
       "tasks": [
-        { "name": "Resume v1 ready", "deadline_day": 7 },
-        { "name": "Senior review", "deadline_day": 10 },
-        { "name": "Resume freeze", "deadline_day": 14 }
+        {
+          "name": "Resume v1 ready",
+          "deadline_day": 7
+        },
+        {
+          "name": "Senior review",
+          "deadline_day": 10
+        },
+        {
+          "name": "Resume freeze",
+          "deadline_day": 14
+        }
       ]
     },
     "projects": {
-      "count": { "min": 2, "max": 3 },
-      "prep_window": [5, 15],
+      "count": {
+        "min": 2,
+        "max": 3
+      },
+      "prep_window": [
+        5,
+        15
+      ],
       "daily_practice_minutes": 30
     },
     "lld": {
       "enabled": true,
-      "window": [18, 30],
+      "window": [
+        18,
+        30
+      ],
       "frequency": "alternate_days",
       "session_minutes": 60,
       "problems": [
@@ -191,7 +351,10 @@
       ]
     },
     "behavioral_hr": {
-      "window": [35, 45],
+      "window": [
+        35,
+        45
+      ],
       "daily_minutes": 20,
       "topics": [
         "Self introduction",
@@ -205,7 +368,6 @@
       "minimum_setup_minutes": 30
     }
   },
-
   "mock_interviews": {
     "full_mocks": [
       {
@@ -213,10 +375,23 @@
         "day": 28,
         "goal": "Baseline check",
         "rounds": [
-          { "type": "DSA", "minutes": 60, "questions": "2 medium" },
-          { "type": "Core CS", "minutes": 30 },
-          { "type": "Resume & Projects", "minutes": 20 },
-          { "type": "HR", "minutes": 15 }
+          {
+            "type": "DSA",
+            "minutes": 60,
+            "questions": "2 medium"
+          },
+          {
+            "type": "Core CS",
+            "minutes": 30
+          },
+          {
+            "type": "Resume & Projects",
+            "minutes": 20
+          },
+          {
+            "type": "HR",
+            "minutes": 15
+          }
         ]
       },
       {
@@ -224,10 +399,23 @@
         "day": 36,
         "goal": "Pressure test",
         "rounds": [
-          { "type": "DSA", "minutes": 70, "questions": "1 medium + 1 hard" },
-          { "type": "Core CS", "minutes": 35 },
-          { "type": "Resume & Projects", "minutes": 20 },
-          { "type": "HR", "minutes": 15 }
+          {
+            "type": "DSA",
+            "minutes": 70,
+            "questions": "1 medium + 1 hard"
+          },
+          {
+            "type": "Core CS",
+            "minutes": 35
+          },
+          {
+            "type": "Resume & Projects",
+            "minutes": 20
+          },
+          {
+            "type": "HR",
+            "minutes": 15
+          }
         ]
       },
       {
@@ -235,10 +423,23 @@
         "day": 43,
         "goal": "Final simulation",
         "rounds": [
-          { "type": "DSA", "minutes": 75, "questions": "1 medium + 1 hard" },
-          { "type": "Core CS", "minutes": 35 },
-          { "type": "Resume & Projects", "minutes": 20 },
-          { "type": "HR", "minutes": 15 }
+          {
+            "type": "DSA",
+            "minutes": 75,
+            "questions": "1 medium + 1 hard"
+          },
+          {
+            "type": "Core CS",
+            "minutes": 35
+          },
+          {
+            "type": "Resume & Projects",
+            "minutes": 20
+          },
+          {
+            "type": "HR",
+            "minutes": 15
+          }
         ]
       }
     ],
@@ -248,7 +449,6 @@
       "feedback_same_day": true
     }
   },
-
   "weekly_health_check": {
     "frequency": "weekly",
     "checks": [
@@ -259,7 +459,6 @@
     ],
     "failure_action": "Reduce scope, not intensity"
   },
-
   "global_rules": {
     "no_new_learning_after_day": 40,
     "no_productivity_tools": true,

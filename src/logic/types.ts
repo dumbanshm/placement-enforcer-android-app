@@ -39,10 +39,16 @@ export interface CoreDay {
 }
 
 export interface CoreSubjectsPlan {
-    daily_core_time_hours: number;
-    weekly_cycle: CoreDay[];
+    light_schedule: {
+        daily_hours: number;
+        weekly_cycle: CoreDay[];
+    };
+    heavy_schedule: {
+        daily_hours: number;
+        weekly_cycle: CoreDay[];
+    };
     rules: {
-        no_new_topics_after_day: number;
+        heavy_start_day: number;
     };
 }
 
@@ -63,6 +69,7 @@ export interface MasterPlan {
     meta: {
         total_days: number;
         daily_focus_hours: number;
+        philosophy: string;
     };
     dsa_plan: DSAPlan;
     core_subjects_plan: CoreSubjectsPlan;

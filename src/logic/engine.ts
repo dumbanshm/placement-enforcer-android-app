@@ -56,46 +56,66 @@ export const Engine = {
         // 2. DSA Tasks
         const dsaPhase = PLAN.dsa_plan.phases.find(p => day >= p.days[0] && day <= p.days[1]);
         if (dsaPhase) {
-            const baseQuestions = dsaPhase.daily_questions;
-            // Penalty: If previous day failed, add penalty. 
-            const totalQuestions = baseQuestions + state.dsaPenaltyCounter;
+            const isRevisionDay = day % 7 === 0;
 
-            // Determine topic
-            // Simple rotation based on day number to ensure coverage
-            const topicIndex = (day - dsaPhase.days[0]) % dsaPhase.topics.length;
-            const topic = dsaPhase.topics[topicIndex];
+            if (isRevisionDay) {
+                tasks.push({
+                    id: `dsa-revision-${day}`,
+                    category: 'DSA',
+                    text: `REVISION DAY: Re-solve 5-7 'Tricky' or 'Hard' problems from this week.`,
+                    isCompleted: false,
+                });
+                tasks.push({
+                    id: `dsa-revision-notes-${day}`,
+                    category: 'DSA',
+                    text: `Review all notes/patterns from ${dsaPhase.name}`,
+                    isCompleted: false,
+                    isInfoOnly: true
+                });
+            } else {
+                const baseQuestions = dsaPhase.daily_questions;
+                // Penalty: If previous day failed, add penalty. 
+                const totalQuestions = baseQuestions + state.dsaPenaltyCounter;
 
-            const diffSplit = PLAN.dsa_plan.daily_rules.difficulty_split;
+                // Determine topic
+                // Simple rotation based on day number to ensure coverage
+                // We exclude revision days from the rotation offset to keep ordering clean? 
+                // Actually simple rotation is fine, just ensures we cycle through.
+                const topicIndex = (day - dsaPhase.days[0]) % dsaPhase.topics.length;
+                const topic = dsaPhase.topics[topicIndex];
 
-            tasks.push({
-                id: `dsa-${day}`,
-                category: 'DSA',
-                text: `Solve ${totalQuestions} DSA questions from ${topic.name}`,
-                isCompleted: false,
-            });
+                tasks.push({
+                    id: `dsa-${day}`,
+                    category: 'DSA',
+                    text: `Solve ${totalQuestions} DSA questions from ${topic.name}`,
+                    isCompleted: false,
+                });
 
-            tasks.push({
-                id: `dsa-split-${day}`,
-                category: 'DSA',
-                text: `Target split: Mostly Medium, Max 1 Hard`,
-                isCompleted: false,
-                isInfoOnly: true,
-            });
+                tasks.push({
+                    id: `dsa-split-${day}`,
+                    category: 'DSA',
+                    text: `Target split: Mostly Medium, Max 1 Hard`,
+                    isCompleted: false,
+                    isInfoOnly: true,
+                });
+            }
         }
 
         // 3. Core Subjects
-        // Check if within revision limit
-        const isRevision = day > PLAN.core_subjects_plan.rules.no_new_topics_after_day;
-        const coreDayIndex = (day - 1) % 7; // day 1 is index 0
-        const coreSchedule = PLAN.core_subjects_plan.weekly_cycle[coreDayIndex];
+        const coreRules = PLAN.core_subjects_plan.rules;
+        const isHeavy = day >= coreRules.heavy_start_day;
 
-        if (coreSchedule) {
-            coreSchedule.blocks.forEach((block, idx) => {
-                const prefix = isRevision ? "REVISE" : "STUDY";
+        const schedule = isHeavy ? PLAN.core_subjects_plan.heavy_schedule : PLAN.core_subjects_plan.light_schedule;
+        const coreDayIndex = (day - 1) % 7;
+
+        const dailySchedule = schedule.weekly_cycle[coreDayIndex];
+
+        if (dailySchedule) {
+            dailySchedule.blocks.forEach((block, idx) => {
                 tasks.push({
                     id: `core-${day}-${idx}`,
                     category: 'CORE',
-                    text: `${prefix} ${block.subject} for ${block.hours} hours`,
+                    text: `[${isHeavy ? 'HEAVY' : 'LIGHT'}] ${block.subject} (${block.hours} hrs)`,
                     isCompleted: false,
                 });
             });
