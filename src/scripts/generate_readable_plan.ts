@@ -39,44 +39,63 @@ function generateMarkdown() {
 
     const totalDays = Engine.getPlan().meta.total_days;
 
-    for (let day = 1; day <= totalDays; day++) {
-        const phaseName = Engine.getPhaseForDay(day);
-        const tasks = Engine.generateTasks(day, MOCK_STATE);
+    // Single Condensed Table
+    md += `### Condensed Schedule\n\n`;
+    md += `| Day | Phase | DSA Topic | Core Subject | Misc |\n`;
+    md += `| :--- | :--- | :--- | :--- | :--- |\n`;
 
-        md += `### Day ${day}`;
-        if (phaseName) md += ` : ${phaseName}`;
-        md += `\n`;
+    for (let d = 1; d <= totalDays; d++) {
+        const phaseName = Engine.getPhaseForDay(d) || '-';
+        // Shorten phase name by taking the part after the dash
+        const shortPhase = phaseName.includes('–') ? phaseName.split('–')[1].trim() : phaseName;
 
-        // Group by Category
-        const dsaTasks = tasks.filter(t => t.category === 'DSA');
+        const tasks = Engine.generateTasks(d, MOCK_STATE);
+
+        const dsaTasks = tasks.filter(t => t.category === 'DSA' && !t.isInfoOnly);
         const coreTasks = tasks.filter(t => t.category === 'CORE');
         const miscTasks = tasks.filter(t => t.category === 'MISC');
         const mockTasks = tasks.filter(t => t.category === 'MOCK');
 
+        let dsaStr = '-';
+        let coreStr = '-';
+        let miscStr = '-';
+
         if (mockTasks.length > 0) {
-            md += `🔴 **MOCK INTERVIEW DAY**\n`;
-            mockTasks.forEach(t => md += `- ${t.text}\n`);
+            dsaStr = `**MOCK INTERVIEW**`;
+            coreStr = 'Mock';
+            miscStr = 'Mock';
         } else {
-            if (dsaTasks.length > 0) {
-                md += `**DSA**\n`;
-                dsaTasks.forEach(t => {
-                    if (!t.isInfoOnly) md += `- [ ] ${t.text}\n`;
-                    else md += `  > *${t.text}*\n`;
-                });
+            const dsaTask = dsaTasks[0];
+            if (dsaTask) {
+                if (dsaTask.text.includes('REVISION DAY')) dsaStr = '**Revision**';
+                else dsaStr = dsaTask.text.replace(/Solve \d+ DSA questions from /, '').trim();
             }
 
             if (coreTasks.length > 0) {
-                md += `**Core Subjects**\n`;
-                coreTasks.forEach(t => md += `- [ ] ${t.text}\n`);
+                coreStr = coreTasks.map(t => {
+                    let clean = t.text.replace(/\[(LIGHT|HEAVY)\] /, '').replace(/\(\d+ hrs\)/, '').trim();
+                    if (clean === 'Operating Systems') return 'OS';
+                    if (clean === 'Computer Networks') return 'CN';
+                    if (clean === 'System Design (HLD)') return 'HLD';
+                    if (clean === 'OOP & Design Patterns') return 'OOP';
+                    if (clean === 'Revision / Notes') return 'Revision';
+                    if (clean === 'Weekly Review') return 'Review';
+                    if (clean === 'Full Revision') return 'Full Revision';
+                    if (clean === 'Mixed Review') return 'Mixed Review';
+                    return clean;
+                }).join(', ');
             }
 
             if (miscTasks.length > 0) {
-                md += `**Misc / Prep**\n`;
-                miscTasks.forEach(t => md += `- [ ] ${t.text}\n`);
+                miscStr = miscTasks.map(t => {
+                    if (t.text.includes('DUE TODAY:')) return t.text.replace('DUE TODAY:', 'Due:');
+                    if (t.text.includes('LLD Session')) return 'LLD Practice';
+                    return t.text;
+                }).join(', ');
             }
         }
 
-        md += `\n---\n\n`;
+        md += `| ${d} | ${shortPhase} | ${dsaStr} | ${coreStr} | ${miscStr} |\n`;
     }
 
     fs.writeFileSync(OUTPUT_FILE, md);

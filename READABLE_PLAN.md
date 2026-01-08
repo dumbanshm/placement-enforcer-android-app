@@ -19,473 +19,57 @@
 
 ---
 
-### Day 1 : Phase 1 – LL, Recursion, Bit Manipulation
-**DSA**
-- [ ] Solve 7 DSA questions from Linked List
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] Operating Systems (1 hrs)
-
----
-
-### Day 2 : Phase 1 – LL, Recursion, Bit Manipulation
-**DSA**
-- [ ] Solve 7 DSA questions from Recursion & Subsequences
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] DBMS (1 hrs)
-
----
-
-### Day 3 : Phase 1 – LL, Recursion, Bit Manipulation
-**DSA**
-- [ ] Solve 7 DSA questions from Bit Manipulation
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] OOP & Design Patterns (1 hrs)
-
----
-
-### Day 4 : Phase 1 – LL, Recursion, Bit Manipulation
-**DSA**
-- [ ] Solve 7 DSA questions from Linked List
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] Computer Networks (1 hrs)
-
----
-
-### Day 5 : Phase 1 – LL, Recursion, Bit Manipulation
-**DSA**
-- [ ] Solve 7 DSA questions from Recursion & Subsequences
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] System Design (HLD) (1 hrs)
-
----
-
-### Day 6 : Phase 1 – LL, Recursion, Bit Manipulation
-**DSA**
-- [ ] Solve 7 DSA questions from Bit Manipulation
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] Revision / Notes (1 hrs)
-
----
-
-### Day 7 : Phase 1 – LL, Recursion, Bit Manipulation
-**DSA**
-- [ ] REVISION DAY: Re-solve 5-7 'Tricky' or 'Hard' problems from this week.
-  > *Review all notes/patterns from Phase 1 – LL, Recursion, Bit Manipulation*
-**Core Subjects**
-- [ ] [LIGHT] Weekly Review (1 hrs)
-**Misc / Prep**
-- [ ] DUE TODAY: Resume v1 ready
-
----
-
-### Day 8 : Phase 1 – LL, Recursion, Bit Manipulation
-**DSA**
-- [ ] Solve 7 DSA questions from Recursion & Subsequences
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] Operating Systems (1 hrs)
-
----
-
-### Day 9 : Phase 2 – Stack, Queue, Sliding Window, Heaps
-**DSA**
-- [ ] Solve 7 DSA questions from Stack & Queue
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] DBMS (1 hrs)
-
----
-
-### Day 10 : Phase 2 – Stack, Queue, Sliding Window, Heaps
-**DSA**
-- [ ] Solve 7 DSA questions from Sliding Window & Two Pointer
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] OOP & Design Patterns (1 hrs)
-**Misc / Prep**
-- [ ] DUE TODAY: Senior review
-
----
-
-### Day 11 : Phase 2 – Stack, Queue, Sliding Window, Heaps
-**DSA**
-- [ ] Solve 7 DSA questions from Heaps / Priority Queue
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] Computer Networks (1 hrs)
-
----
-
-### Day 12 : Phase 2 – Stack, Queue, Sliding Window, Heaps
-**DSA**
-- [ ] Solve 7 DSA questions from Stack & Queue
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] System Design (HLD) (1 hrs)
-
----
-
-### Day 13 : Phase 2 – Stack, Queue, Sliding Window, Heaps
-**DSA**
-- [ ] Solve 7 DSA questions from Sliding Window & Two Pointer
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] Revision / Notes (1 hrs)
-
----
-
-### Day 14 : Phase 2 – Stack, Queue, Sliding Window, Heaps
-**DSA**
-- [ ] REVISION DAY: Re-solve 5-7 'Tricky' or 'Hard' problems from this week.
-  > *Review all notes/patterns from Phase 2 – Stack, Queue, Sliding Window, Heaps*
-**Core Subjects**
-- [ ] [LIGHT] Weekly Review (1 hrs)
-**Misc / Prep**
-- [ ] DUE TODAY: Resume freeze
-
----
-
-### Day 15 : Phase 2 – Stack, Queue, Sliding Window, Heaps
-**DSA**
-- [ ] Solve 7 DSA questions from Stack & Queue
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] Operating Systems (1 hrs)
-
----
-
-### Day 16 : Phase 2 – Stack, Queue, Sliding Window, Heaps
-**DSA**
-- [ ] Solve 7 DSA questions from Sliding Window & Two Pointer
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] DBMS (1 hrs)
-
----
-
-### Day 17 : Phase 2 – Stack, Queue, Sliding Window, Heaps
-**DSA**
-- [ ] Solve 7 DSA questions from Heaps / Priority Queue
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] OOP & Design Patterns (1 hrs)
-
----
-
-### Day 18 : Phase 2 – Stack, Queue, Sliding Window, Heaps
-**DSA**
-- [ ] Solve 7 DSA questions from Stack & Queue
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] Computer Networks (1 hrs)
-**Misc / Prep**
-- [ ] LLD Session: Practice System Design (60 mins)
-
----
-
-### Day 19 : Phase 2 – Stack, Queue, Sliding Window, Heaps
-**DSA**
-- [ ] Solve 7 DSA questions from Sliding Window & Two Pointer
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] System Design (HLD) (1 hrs)
-
----
-
-### Day 20 : Phase 3 – Greedy, Trees & BST
-**DSA**
-- [ ] Solve 7 DSA questions from Greedy Algorithms
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] Revision / Notes (1 hrs)
-**Misc / Prep**
-- [ ] LLD Session: Practice System Design (60 mins)
-
----
-
-### Day 21 : Phase 3 – Greedy, Trees & BST
-**DSA**
-- [ ] REVISION DAY: Re-solve 5-7 'Tricky' or 'Hard' problems from this week.
-  > *Review all notes/patterns from Phase 3 – Greedy, Trees & BST*
-**Core Subjects**
-- [ ] [LIGHT] Weekly Review (1 hrs)
-
----
-
-### Day 22 : Phase 3 – Greedy, Trees & BST
-**DSA**
-- [ ] Solve 7 DSA questions from Binary Search Trees
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] Operating Systems (1 hrs)
-**Misc / Prep**
-- [ ] LLD Session: Practice System Design (60 mins)
-
----
-
-### Day 23 : Phase 3 – Greedy, Trees & BST
-**DSA**
-- [ ] Solve 7 DSA questions from Greedy Algorithms
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] DBMS (1 hrs)
-
----
-
-### Day 24 : Phase 3 – Greedy, Trees & BST
-**DSA**
-- [ ] Solve 7 DSA questions from Binary Trees
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] OOP & Design Patterns (1 hrs)
-**Misc / Prep**
-- [ ] LLD Session: Practice System Design (60 mins)
-
----
-
-### Day 25 : Phase 3 – Greedy, Trees & BST
-**DSA**
-- [ ] Solve 7 DSA questions from Binary Search Trees
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] Computer Networks (1 hrs)
-
----
-
-### Day 26 : Phase 3 – Greedy, Trees & BST
-**DSA**
-- [ ] Solve 7 DSA questions from Greedy Algorithms
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] System Design (HLD) (1 hrs)
-**Misc / Prep**
-- [ ] LLD Session: Practice System Design (60 mins)
-
----
-
-### Day 27 : Phase 3 – Greedy, Trees & BST
-**DSA**
-- [ ] Solve 7 DSA questions from Binary Trees
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] Revision / Notes (1 hrs)
-
----
-
-### Day 28 : Phase 3 – Greedy, Trees & BST
-🔴 **MOCK INTERVIEW DAY**
-- FULL MOCK INTERVIEW DAY (Goal: Baseline check)
-- Complete rounds: DSA, Core CS, Resume & Projects, HR
-- Single sitting. No pauses.
-
----
-
-### Day 29 : Phase 3 – Greedy, Trees & BST
-**DSA**
-- [ ] Solve 7 DSA questions from Greedy Algorithms
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] Operating Systems (1 hrs)
-
----
-
-### Day 30 : Phase 3 – Greedy, Trees & BST
-**DSA**
-- [ ] Solve 7 DSA questions from Binary Trees
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] DBMS (1 hrs)
-**Misc / Prep**
-- [ ] LLD Session: Practice System Design (60 mins)
-
----
-
-### Day 31 : Phase 4 – Graphs (Deep Dive)
-**DSA**
-- [ ] Solve 6 DSA questions from Graphs (BFS, DFS, Topo)
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] OOP & Design Patterns (1 hrs)
-
----
-
-### Day 32 : Phase 4 – Graphs (Deep Dive)
-**DSA**
-- [ ] Solve 6 DSA questions from Graphs (Shortest Path, MST)
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] Computer Networks (1 hrs)
-
----
-
-### Day 33 : Phase 4 – Graphs (Deep Dive)
-**DSA**
-- [ ] Solve 6 DSA questions from Graphs (Disjoint Set, Other)
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] System Design (HLD) (1 hrs)
-
----
-
-### Day 34 : Phase 4 – Graphs (Deep Dive)
-**DSA**
-- [ ] Solve 6 DSA questions from Graphs (BFS, DFS, Topo)
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] Revision / Notes (1 hrs)
-
----
-
-### Day 35 : Phase 4 – Graphs (Deep Dive)
-**DSA**
-- [ ] REVISION DAY: Re-solve 5-7 'Tricky' or 'Hard' problems from this week.
-  > *Review all notes/patterns from Phase 4 – Graphs (Deep Dive)*
-**Core Subjects**
-- [ ] [LIGHT] Weekly Review (1 hrs)
-
----
-
-### Day 36 : Phase 4 – Graphs (Deep Dive)
-🔴 **MOCK INTERVIEW DAY**
-- FULL MOCK INTERVIEW DAY (Goal: Pressure test)
-- Complete rounds: DSA, Core CS, Resume & Projects, HR
-- Single sitting. No pauses.
-
----
-
-### Day 37 : Phase 4 – Graphs (Deep Dive)
-**DSA**
-- [ ] Solve 6 DSA questions from Graphs (BFS, DFS, Topo)
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] DBMS (1 hrs)
-
----
-
-### Day 38 : Phase 4 – Graphs (Deep Dive)
-**DSA**
-- [ ] Solve 6 DSA questions from Graphs (Shortest Path, MST)
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] OOP & Design Patterns (1 hrs)
-
----
-
-### Day 39 : Phase 4 – Graphs (Deep Dive)
-**DSA**
-- [ ] Solve 6 DSA questions from Graphs (Disjoint Set, Other)
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] Computer Networks (1 hrs)
-
----
-
-### Day 40 : Phase 4 – Graphs (Deep Dive)
-**DSA**
-- [ ] Solve 6 DSA questions from Graphs (BFS, DFS, Topo)
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [LIGHT] System Design (HLD) (1 hrs)
-
----
-
-### Day 41 : Phase 4 – Graphs (Deep Dive)
-**DSA**
-- [ ] Solve 6 DSA questions from Graphs (Shortest Path, MST)
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [HEAVY] Full Revision (4 hrs)
-
----
-
-### Day 42 : Phase 4 – Graphs (Deep Dive)
-**DSA**
-- [ ] REVISION DAY: Re-solve 5-7 'Tricky' or 'Hard' problems from this week.
-  > *Review all notes/patterns from Phase 4 – Graphs (Deep Dive)*
-**Core Subjects**
-- [ ] [HEAVY] Full Revision (4 hrs)
-
----
-
-### Day 43 : Phase 5 – Dynamic Programming (Deep Dive)
-🔴 **MOCK INTERVIEW DAY**
-- FULL MOCK INTERVIEW DAY (Goal: Final simulation)
-- Complete rounds: DSA, Core CS, Resume & Projects, HR
-- Single sitting. No pauses.
-
----
-
-### Day 44 : Phase 5 – Dynamic Programming (Deep Dive)
-**DSA**
-- [ ] Solve 6 DSA questions from DP on Strings/Subsequences
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [HEAVY] DBMS (3 hrs)
-- [ ] [HEAVY] OOP (1 hrs)
-
----
-
-### Day 45 : Phase 5 – Dynamic Programming (Deep Dive)
-**DSA**
-- [ ] Solve 6 DSA questions from DP 1D & 2D
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [HEAVY] Computer Networks (3 hrs)
-- [ ] [HEAVY] Operating Systems (1 hrs)
-
----
-
-### Day 46 : Phase 5 – Dynamic Programming (Deep Dive)
-**DSA**
-- [ ] Solve 6 DSA questions from DP on Strings/Subsequences
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [HEAVY] OOP & Design Patterns (3 hrs)
-- [ ] [HEAVY] DBMS (1 hrs)
-
----
-
-### Day 47 : Phase 5 – Dynamic Programming (Deep Dive)
-**DSA**
-- [ ] Solve 6 DSA questions from DP 1D & 2D
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [HEAVY] System Design (HLD) (3 hrs)
-- [ ] [HEAVY] Mixed Review (1 hrs)
-
----
-
-### Day 48 : Phase 5 – Dynamic Programming (Deep Dive)
-**DSA**
-- [ ] Solve 6 DSA questions from DP on Strings/Subsequences
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [HEAVY] Full Revision (4 hrs)
-
----
-
-### Day 49 : Phase 5 – Dynamic Programming (Deep Dive)
-**DSA**
-- [ ] REVISION DAY: Re-solve 5-7 'Tricky' or 'Hard' problems from this week.
-  > *Review all notes/patterns from Phase 5 – Dynamic Programming (Deep Dive)*
-**Core Subjects**
-- [ ] [HEAVY] Full Revision (4 hrs)
-
----
-
-### Day 50 : Phase 5 – Dynamic Programming (Deep Dive)
-**DSA**
-- [ ] Solve 6 DSA questions from DP on Strings/Subsequences
-  > *Target split: Mostly Medium, Max 1 Hard*
-**Core Subjects**
-- [ ] [HEAVY] Operating Systems (3 hrs)
-- [ ] [HEAVY] Computer Networks (1 hrs)
-
----
-
+### Condensed Schedule
+
+| Day | Phase | DSA Topic | Core Subject | Misc |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | LL, Recursion, Bit Manipulation | Linked List | OS | - |
+| 2 | LL, Recursion, Bit Manipulation | Recursion & Subsequences | DBMS | - |
+| 3 | LL, Recursion, Bit Manipulation | Bit Manipulation | OOP | - |
+| 4 | LL, Recursion, Bit Manipulation | Linked List | CN | - |
+| 5 | LL, Recursion, Bit Manipulation | Recursion & Subsequences | HLD | - |
+| 6 | LL, Recursion, Bit Manipulation | Bit Manipulation | Revision | - |
+| 7 | LL, Recursion, Bit Manipulation | **Revision** | Review | Due: Resume v1 ready |
+| 8 | LL, Recursion, Bit Manipulation | Recursion & Subsequences | OS | - |
+| 9 | Stack, Queue, Sliding Window, Heaps | Stack & Queue | DBMS | - |
+| 10 | Stack, Queue, Sliding Window, Heaps | Sliding Window & Two Pointer | OOP | Due: Senior review |
+| 11 | Stack, Queue, Sliding Window, Heaps | Heaps / Priority Queue | CN | - |
+| 12 | Stack, Queue, Sliding Window, Heaps | Stack & Queue | HLD | - |
+| 13 | Stack, Queue, Sliding Window, Heaps | Sliding Window & Two Pointer | Revision | - |
+| 14 | Stack, Queue, Sliding Window, Heaps | **Revision** | Review | Due: Resume freeze |
+| 15 | Stack, Queue, Sliding Window, Heaps | Stack & Queue | OS | - |
+| 16 | Stack, Queue, Sliding Window, Heaps | Sliding Window & Two Pointer | DBMS | - |
+| 17 | Stack, Queue, Sliding Window, Heaps | Heaps / Priority Queue | OOP | - |
+| 18 | Stack, Queue, Sliding Window, Heaps | Stack & Queue | CN | LLD Practice |
+| 19 | Stack, Queue, Sliding Window, Heaps | Sliding Window & Two Pointer | HLD | - |
+| 20 | Greedy, Trees & BST | Greedy Algorithms | Revision | LLD Practice |
+| 21 | Greedy, Trees & BST | **Revision** | Review | - |
+| 22 | Greedy, Trees & BST | Binary Search Trees | OS | LLD Practice |
+| 23 | Greedy, Trees & BST | Greedy Algorithms | DBMS | - |
+| 24 | Greedy, Trees & BST | Binary Trees | OOP | LLD Practice |
+| 25 | Greedy, Trees & BST | Binary Search Trees | CN | - |
+| 26 | Greedy, Trees & BST | Greedy Algorithms | HLD | LLD Practice |
+| 27 | Greedy, Trees & BST | Binary Trees | Revision | - |
+| 28 | Greedy, Trees & BST | **MOCK INTERVIEW** | Mock | Mock |
+| 29 | Greedy, Trees & BST | Greedy Algorithms | OS | - |
+| 30 | Greedy, Trees & BST | Binary Trees | DBMS | LLD Practice |
+| 31 | Graphs (Deep Dive) | Graphs (BFS, DFS, Topo) | OOP | - |
+| 32 | Graphs (Deep Dive) | Graphs (Shortest Path, MST) | CN | - |
+| 33 | Graphs (Deep Dive) | Graphs (Disjoint Set, Other) | HLD | - |
+| 34 | Graphs (Deep Dive) | Graphs (BFS, DFS, Topo) | Revision | - |
+| 35 | Graphs (Deep Dive) | **Revision** | Review | - |
+| 36 | Graphs (Deep Dive) | **MOCK INTERVIEW** | Mock | Mock |
+| 37 | Graphs (Deep Dive) | Graphs (BFS, DFS, Topo) | DBMS | - |
+| 38 | Graphs (Deep Dive) | Graphs (Shortest Path, MST) | OOP | - |
+| 39 | Graphs (Deep Dive) | Graphs (Disjoint Set, Other) | CN | - |
+| 40 | Graphs (Deep Dive) | Graphs (BFS, DFS, Topo) | HLD | - |
+| 41 | Graphs (Deep Dive) | Graphs (Shortest Path, MST) | Full Revision | - |
+| 42 | Graphs (Deep Dive) | **Revision** | Full Revision | - |
+| 43 | Dynamic Programming (Deep Dive) | **MOCK INTERVIEW** | Mock | Mock |
+| 44 | Dynamic Programming (Deep Dive) | DP on Strings/Subsequences | DBMS, OOP | - |
+| 45 | Dynamic Programming (Deep Dive) | DP 1D & 2D | CN, OS | - |
+| 46 | Dynamic Programming (Deep Dive) | DP on Strings/Subsequences | OOP, DBMS | - |
+| 47 | Dynamic Programming (Deep Dive) | DP 1D & 2D | HLD, Mixed Review | - |
+| 48 | Dynamic Programming (Deep Dive) | DP on Strings/Subsequences | Full Revision | - |
+| 49 | Dynamic Programming (Deep Dive) | **Revision** | Full Revision | - |
+| 50 | Dynamic Programming (Deep Dive) | DP on Strings/Subsequences | OS, CN | - |
